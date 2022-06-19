@@ -23,15 +23,15 @@ export const WebsiteLogo = styled.img`
   height: 42px;
   width: 122px;
   @media all and (max-width: 380px) {
-    height: 40px;
-    width: 92px;
+    height: 36px;
+    width: 98px;
   }
 `
 export const LoginContainer = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-evenly;
   height: 408px;
   width: 406px;
   border-radius: 8px;
@@ -72,7 +72,7 @@ export const InputEl = styled.input`
   height: 40px;
   width: 330px;
   top: 8px;
-  border: 1px solid #6366f1;
+  border: 1px solid #f8fafc;
   outline: none;
   border-radius: 2px;
   padding: 8px;
@@ -106,6 +106,9 @@ export const ShowPasswordContainer = styled.div`
   display: flex;
   margin-top: -26px;
   align-items: center;
+  @media all and (max-width: 380px) {
+    margin-top: -15px;
+  }
 `
 export const Para = styled.p`
   font-size: 14px;
