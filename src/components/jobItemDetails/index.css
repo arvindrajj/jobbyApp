@@ -1,0 +1,143 @@
+.skills-heading {
+  color: #ffffff;
+  font-size: 15px;
+  font-family: 'Roboto';
+}
+.skills-list-container {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  padding-left: 0px;
+  margin-top: 0px;
+}
+.skills-item {
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  list-style-type: none;
+  width: 50%;
+}
+@media all and (min-width: 1200px) {
+  .skills-item {
+    width: 230px;
+  }
+}
+@media all and (min-width: 556px) {
+  .skills-item {
+    width: 33%;
+  }
+}
+
+.skills-image {
+  height: 26px;
+  width: 26px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+.skills-name {
+  color: #f1f5f9;
+  font-size: 12px;
+  font-family: 'Roboto';
+}
+
+@media all and (min-width: 556px) {
+  .skills-item {
+    width: 33%;
+  }
+  .skills-image {
+    height: 40px;
+    width: 40px;
+  }
+  .skills-name {
+    font-size: 14px;
+  }
+}
+@media all and (min-width: 788px) {
+  .skills-image {
+    height: 60px;
+    width: 60px;
+    margin-bottom: 14px;
+  }
+  .skills-name {
+    font-size: 16px;
+  }
+}
+
+.life-at-company-heading {
+  color: #ffffff;
+  font-size: 15px;
+  font-family: 'Roboto';
+}
+.life-at-company-content {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.life-at-company-description {
+  color: #f1f5f9;
+  width: 100%;
+  font-size: 13px;
+  max-width: 900px;
+  font-family: 'Roboto';
+  margin-right: 10px;
+}
+@media all and (min-width: 568px) {
+  .life-at-company-content {
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  .life-at-company-description {
+    min-width: 50%;
+  }
+}
+
+.life-at-company-image {
+  width: 100%;
+  max-width: 400px;
+  height: 70%;
+  order: -1;
+}
+@media all and (min-width: 568px) {
+  .life-at-company-image {
+    width: 50%;
+    order: 2;
+  }
+}
+
+.similar-jobs-heading {
+  color: #f1f5f9;
+  font-size: 15px;
+  font-family: 'Roboto';
+}
+@media all and (min-width: 768px) {
+  .similar-jobs-heading {
+    font-size: 20px;
+  }
+  .skills-heading {
+    font-size: 20px;
+  }
+  .life-at-company-heading {
+    font-size: 20px;
+  }
+}
+@media all and (min-width: 894px) {
+  .life-at-company-description {
+    font-size: 16px;
+  }
+  .life-at-company-heading {
+    font-size: 22px;
+  }
+  .skills-heading {
+    font-size: 22px;
+  }
+}
+
+.similar-jobs-list {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 0px;
+  padding-left: 0px;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
